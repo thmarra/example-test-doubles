@@ -71,7 +71,7 @@ class SubscriptionTest extends TestCase
     {
         $this->expectNotToPerformAssertions();
 
-        $gatewaySpy = \Mockery::spy(Gateway::class);
+        $gatewaySpy = Mockery::spy(Gateway::class);
         $mailerDummy = $this->createMock(Mailer::class);
 
         $subscription = new Subscription($gatewaySpy, $mailerDummy);
