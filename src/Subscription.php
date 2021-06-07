@@ -15,7 +15,7 @@ class Subscription
         $this->mailer = $mailer;
     }
 
-    public function create(User $user)
+    public function create(User $user): void
     {
         $this->gateway->register($user->email);
 
