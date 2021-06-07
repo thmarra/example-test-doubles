@@ -2,7 +2,7 @@
 
 Código com exemplos do post "Teste Doubles" acessível em:
 
-// link do dev.to
+https://dev.to/thalimarra/testes-de-software-test-doubles-56af
 
 ## Docker
 O docker-compose aqui presente já contempla o necessário para instalar as bibliotecas necessárias e executar os 
